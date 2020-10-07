@@ -129,7 +129,73 @@ public class HardDisk {
 			return hdType;
 		}	
 		}
+	}
+```
+
+*PC类
+
+```
+package lab1;
+
+public class PC {
+	private CPU cpu;                    //cpu属性
+	private HardDisk HD;                //HD属性
+	
+	PC(){}                      //构造方法1
+	PC(CPU cpu,HardDisk HD){    //构造方法2
+		this.cpu = cpu;
+		this.HD = HD;
+	}
+	void setCPU(CPU c){      
+		cpu = c ;
 		}
+	void setHardDisk(HardDisk h) {
+		HD = h ;
+		}
+	
+	void show() {              //屏幕输出
+		cpu.getSpeed();
+		System.out.println("CPU的品牌为:" + cpu.setBrand(cpu.brand));
+		System.out.println("硬盘的容量为:" + HD.getAmound());
+		System.out.println("硬盘的类型为:" + HD.setHDType(HD.hdType));
+	}
+
+}
+
+```
+
+*Test类
+
+```
+package lab1;
+
+public class Test {
+	public static void main(String args[]) {
+		CPU cpu=new CPU(2000,"Intel");                     //直接定义CPU HD PC
+		HardDisk disk=new HardDisk(512,"SATA");            
+		PC pc=new PC();
+	
+	    cpu.setSpeed(8200); 
+	    cpu.setBrand("aMD"); 
+	    disk.setAmount(256);
+	    
+	    pc.setCPU(cpu);
+	    pc.setHardDisk(disk);
+	    pc.show();
+	    
+	    cpu.setSpeed(-2200); 
+	    cpu.setBrand("Intel"); 
+	    disk.setAmount(512);
+	    disk.setHDType("disk");
+	    
+	    pc.setCPU(cpu);
+	    pc.setHardDisk(disk);
+	    pc.show();
+		
+	}
+
+}
+
 ```
 
 ### 实验结果
