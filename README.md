@@ -198,5 +198,5 @@ public class Test {
 ```
 
 ### 实验结果
-![](https://github.com/Mellisa1002/javalab1/raw/master/实验结果.png)
+![](https://github.com/Mellisa1002/javalab1/blob/main/%E5%AE%9E%E9%AA%8C%E7%BB%93%E6%9E%9C.png)
 ### 实验感想
