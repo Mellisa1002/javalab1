@@ -14,8 +14,7 @@
     5.尝试多种不同的对对象属性调用的方法。
 
 <br>
-<br>
-<br>
+
 
 ### 实验设计
 
@@ -30,7 +29,7 @@
     
 ### 核心方法
 
-*CPU类
+***CPU类 
 
 
 
@@ -87,7 +86,7 @@ public class CPU {
 
 ``` 
 
-*HardDisk类
+***HardDisk类
 
 ```
 package lab1;
@@ -132,7 +131,7 @@ public class HardDisk {
 	}
 ```
 
-*PC类
+***PC类
 
 ```
 package lab1;
@@ -164,7 +163,7 @@ public class PC {
 
 ```
 
-*Test类
+***Test类
 
 ```
 package lab1;
