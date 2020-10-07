@@ -29,7 +29,7 @@
     
 ### 核心方法
 
-***CPU类 
+*CPU类*
 
 
 
@@ -86,7 +86,7 @@ public class CPU {
 
 ``` 
 
-***HardDisk类
+*HardDisk类*
 
 ```
 package lab1;
@@ -131,7 +131,7 @@ public class HardDisk {
 	}
 ```
 
-***PC类
+*PC类*
 
 ```
 package lab1;
@@ -163,7 +163,7 @@ public class PC {
 
 ```
 
-***Test类
+*Test类*
 
 ```
 package lab1;
