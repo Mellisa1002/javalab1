@@ -39,8 +39,6 @@ CPU类
 public class CPU {
 	private int speed;        //速度
 	public String brand;      //品牌
-	
-	private String s="只要是正数就对了结果还没写正数";	
 	CPU(){}                           //构造方法1
 	CPU(int speed , String brand){    //构造方法2
 		this.speed = speed;
@@ -80,9 +78,12 @@ public class CPU {
 		{
 			brand="这个不是CPU品牌哦!";
 			return brand;
-		}					
+		}			
+		
 	}
+
 }
+
 ``` 
 
 ### 实验结果
