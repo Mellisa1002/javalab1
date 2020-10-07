@@ -33,7 +33,8 @@
 CPU类
 ****
 
-`package lab1;
+
+```package lab1;
 
 public class CPU {
 	private int speed;        //速度
@@ -82,7 +83,7 @@ public class CPU {
 		}					
 	}
 }
-` 
+``` 
 
 ### 实验结果
 ### 实验感想
