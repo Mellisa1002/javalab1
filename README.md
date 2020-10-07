@@ -34,7 +34,8 @@ CPU类
 ****
 
 
-```package lab1;
+```
+package lab1;
 
 public class CPU {
 	private int speed;        //速度
