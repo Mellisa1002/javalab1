@@ -208,7 +208,9 @@ public class Test {
 
 <br>
 
-
+```diff
++ this will be highlighted in green
+- this will be highlighted in red````
 第一次正式上机实验中，发现课堂上虽然听明白了很多东西，但是实际上手实验时会发现还是不能很熟悉，毕竟第一次正式接触写一个完整的java程序有一定的难度。<br>
 但是在看清楚并分析透彻题目要求后，有了一个大致的思路以后，可以先试着书写一个大致的框架。比如在这个实验中，可以确定需要有CPU、HardDisk两个最基本的类，然后用这两个类作为PC类的属性，最后再有单独一个类来测试程序是否正确。<br>
 确定了大致的框架之后，就可以逐渐丰满完整整个程序了。<br>
@@ -223,6 +225,4 @@ public class Test {
 没做跨包调用的那一项，周末有时间的话补一下，还是先赶紧交上作业比较好...<br>
 
 
-```diff
-+ this will be highlighted in green
-- this will be highlighted in red
+
